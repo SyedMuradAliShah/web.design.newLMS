@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS-Vocabulary-instruction</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <section class="dash-content">
+      <header class="py-2">
+        <div class="d-flex justify-content-between">
+          <div class="d-flex logo-sec align-items-center">
+            <div class="logo d-none d-md-block">
+              <img src="./assets/images/logo.png" class="w-75" alt="">
+            </div>
+            <button class="open-btn" onclick="toggleNav()">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              </button>
+          </div>
+         
+        <div class="me-0 me-lg-5 btn-sec d-flex justify-content-end">
+  
+  <div class="btn-group w-25 me-3">
+    <button class="btn icon p-0" data-bs-toggle="dropdown" aria-expanded="false">
+      <img src="./assets/images/chatting.png" class="object-fit-fill w-100" alt="">
+    </button>
+    <ul class="dropdown-menu px-4">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+  <div class="btn-group w-25 me-3">
+    <button class="btn icon p-0" data-bs-toggle="dropdown" aria-expanded="false">
+      <img src="./assets/images/notification.png" class="object-fit-fill w-100" alt="">
+    </button>
+    <ul class="dropdown-menu px-4">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+  <div class="btn-group">
+    <button class="btn profile p-0" data-bs-toggle="dropdown" aria-expanded="false">
+      <img src="./assets/images/profile.png" class="object-fit-fill w-100" alt="">
+    </button>
+    <ul class="dropdown-menu px-4">
+      <li><a class="dropdown-item" href="./profile.html">My Profile</a></li>
+      <li><a class="dropdown-item" href="./change-password.html">Change Password</a></li>
+      <li><a class="dropdown-item logout-btn" href="./index.html">Logout</a></li>
+    </ul>
+  </div>
+        </div>
+      </div>
+      </header>    
+      <div class="sidebar py-4 px-lg-3" id="mySidebar">      
+      <div class="side-nav position-relative h-100">      
+      <a href="./units.html" class="active">
+        <i class="fa-solid fa-swatchbook"></i>
+        <span class="text">Units</span>
+      </a>
+      <ul>
+        <li><a href="" class="fw-normal ps-2 py-1">Unit name-1</a></li>
+        <li><a href="" class="fw-normal ps-2 py-1">Unit name-2</a></li>
+        <li><a href="" class="fw-normal ps-2 py-1">Unit name-3</a></li>
+        <li><a href="" class="fw-normal ps-2 py-1">Unit name-4</a></li>
+        <li><a href="" class="fw-normal ps-2 py-1">Unit name-5</a></li>
+      </ul>
+      <a href="./progress-report.html">
+        <i class="fa-solid fa-chart-pie"></i>
+        <span class="text">Progress Report</span>
+      </a>
+      <a href="./profile.html">
+        <i class="fa-solid fa-user"></i>
+        <span class="text">My Profile</span>
+      </a>
+      <a href="./contact-teacher.html">
+        <i class="fa-solid fa-square-envelope"></i>
+        <span class="text">Contact Teacher</span>
+      </a>
+      </div>
+    </div>
+      <div class="content pt-5 mt-lg-0 position-relative">  
+        <section class="student-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <div class="wrapper instruction p-3 p-lg-5">
+                            <h2 class="mb-4 fw-bold">Only 40 Minutes to complete</h2>
+                            <h4 class="fw-bold">Instructions</h4>
+                            <p class="border-bottom pb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quibusdam ea, fugit est explicabo ad possimus praesentium consequuntur tempore autem.
+                            </p>
+                           <h4 class="fw-bold">Reading passage</h4>
+                           <p class="border-0 mb-1">
+                            Student will read the passage then will answer the following questions
+                           </p>
+                           <ol class="ps-3">
+                            <li class="fw-bold"> MCQ </li>
+                            <li class="fw-bold">Fill in the blank</li>
+                            <li class="fw-bold">Typing Questions (Short / Long passage)</li>
+                            <li class="fw-bold">True &amp; False</li>
+                            <li class="fw-bold">Rearrange Questions</li>
+                            <li class="fw-bold">Matching with Pictures</li>
+                            <li>میرا نام سلیمان ہے  Matching with Pictures</li>
+                           </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="p-3 justify-content-between d-flex bottom-btns mt-4 ">
+            <a href="./vocabulary-detail.html" class="btn-cls px-4 py-2"><i class="fa-solid fa-caret-left"></i> Back</a>
+            <a href="./question-1.html" class="btn-cls px-4 py-2">Quiz <i class="fa-solid fa-caret-right"></i></a>
+          </div>
+      </div>
+    </section>
+ 
+    <!-- ===============script-tag=============== -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
