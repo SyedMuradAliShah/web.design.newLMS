@@ -6,10 +6,10 @@
 }
 body{
     font-family: 'Nunito', sans-serif !important;
-    background-color: #fffcf69e !important;
+    background-color: #0d004f05 !important;
 }
-$primary-color:#d5b66b;
-$secondary-color:#b79a6d;
+$primary-color:#140079;
+$secondary-color:#0063dd;
 $active-bg:#70ba65;
 $gradient: linear-gradient(135deg, $primary-color, $secondary-color);
 .primary-bg{
@@ -24,6 +24,28 @@ $gradient: linear-gradient(135deg, $primary-color, $secondary-color);
 .secondary-text{
     color: $secondary-color;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $primary-color; 
+  }
+
+
 .btn-cls{
     background: $gradient;
     color: white ;
@@ -265,7 +287,7 @@ header{
         transition: 0.4s all;
         background: #ffffff;
         .imgbox{
-            width: 100px;
+            width: 180px;
         }
         &:hover{
             background: $gradient;
@@ -274,9 +296,24 @@ header{
                 p{
                     color: #ffffff !important;
                 }
+                h5{
+                    color: #ffffff !important;
+                }
             }
         }
     }
+}
+.all-units{
+    background-color: rgba(211, 211, 211, 0.443);
+    height: 600px;
+    overflow-y: auto;
+    .class-box{
+        border: 1px solid $primary-color;
+        .imgbox{
+            width: 150px;
+        }
+    }
+    
 }
 .class-details{
     .skill-box{

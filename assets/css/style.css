@@ -7,34 +7,54 @@
 
 body {
   font-family: "Nunito", sans-serif !important;
-  background-color: rgba(255, 252, 246, 0.6196078431) !important;
+  background-color: rgba(13, 0, 79, 0.0196078431) !important;
 }
 
 .primary-bg {
-  background-color: #d5b66b;
+  background-color: #140079;
 }
 
 .secondary-bg {
-  background-color: #b79a6d;
+  background-color: #0063dd;
 }
 
 .primary-text {
-  color: #d5b66b !important;
+  color: #140079 !important;
 }
 
 .secondary-text {
-  color: #b79a6d;
+  color: #0063dd;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #140079;
 }
 
 .btn-cls {
-  background: linear-gradient(135deg, #d5b66b, #b79a6d);
+  background: linear-gradient(135deg, #140079, #0063dd);
   color: white;
   font-size: 1.2rem;
   border: none;
   border-radius: 5px;
   transition: 0.4s all;
   text-decoration: none;
-  border: 1px solid #d5b66b;
+  border: 1px solid #140079;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -52,7 +72,7 @@ body {
   z-index: -1;
 }
 .btn-cls:hover {
-  color: #d5b66b;
+  color: #140079;
 }
 .btn-cls:hover::before {
   width: 85%;
@@ -60,8 +80,8 @@ body {
 }
 
 .pre-btn {
-  border: 1px solid #d5b66b;
-  color: #d5b66b !important;
+  border: 1px solid #140079;
+  color: #140079 !important;
   font-size: 1.2rem;
   border-radius: 5px;
   transition: 0.4s all;
@@ -70,7 +90,7 @@ body {
 .pre-btn:hover {
   background-color: white;
   color: white !important;
-  background-color: #d5b66b;
+  background-color: #140079;
   letter-spacing: 1px;
   font-weight: 500;
 }
@@ -102,11 +122,11 @@ body {
   opacity: 0.5;
 }
 .login-page .form-box .form-sec input:focus {
-  border-color: #d5b66b;
+  border-color: #140079;
 }
 .login-page .form-box .fp {
   text-decoration: none;
-  color: #d5b66b;
+  color: #140079;
 }
 
 label {
@@ -124,10 +144,10 @@ header {
   margin-top: 10px;
 }
 header .nav-item .nav-link {
-  color: #d5b66b;
+  color: #140079;
 }
 header .nav-item .active {
-  background: linear-gradient(135deg, #d5b66b, #b79a6d);
+  background: linear-gradient(135deg, #140079, #0063dd);
   color: #ffffff !important;
   border-radius: 5px;
   font-weight: 700;
@@ -156,16 +176,16 @@ header .btn-sec .dropdown-menu a {
   padding: 0;
 }
 header .btn-sec .dropdown-menu a:hover {
-  color: #d5b66b;
+  color: #140079;
   background-color: transparent;
 }
 header .btn-sec .dropdown-menu .logout-btn {
-  border: 1px solid #d5b66b;
+  border: 1px solid #140079;
   padding: 6px 10px;
   border-radius: 100px;
 }
 header .btn-sec .dropdown-menu .logout-btn:hover {
-  background-color: #d5b66b;
+  background-color: #140079;
   color: white;
 }
 
@@ -244,19 +264,34 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
 }
 
 .class-sec .class-box {
-  border: 2px solid #d5b66b;
+  border: 2px solid #140079;
   transition: 0.4s all;
   background: #ffffff;
 }
 .class-sec .class-box .imgbox {
-  width: 100px;
+  width: 180px;
 }
 .class-sec .class-box:hover {
-  background: linear-gradient(135deg, #d5b66b, #b79a6d);
+  background: linear-gradient(135deg, #140079, #0063dd);
   box-shadow: 0px 5px 10px rgba(213, 181, 107, 0.2470588235);
 }
 .class-sec .class-box:hover .text p {
   color: #ffffff !important;
+}
+.class-sec .class-box:hover .text h5 {
+  color: #ffffff !important;
+}
+
+.all-units {
+  background-color: rgba(211, 211, 211, 0.443);
+  height: 600px;
+  overflow-y: auto;
+}
+.all-units .class-box {
+  border: 1px solid #140079;
+}
+.all-units .class-box .imgbox {
+  width: 150px;
 }
 
 .class-details .skill-box {
@@ -280,7 +315,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
 }
 
 .lecture-detail .box {
-  border: 1px solid #d5b66b;
+  border: 1px solid #140079;
   border-radius: 10px;
   transition: 0.3s all;
   position: relative;
@@ -290,7 +325,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
   position: absolute;
   top: 0px;
   left: 0px;
-  background-color: #d5b66b;
+  background-color: #140079;
   padding: 12px;
   border-radius: 0px 0px 20px 0px;
 }
@@ -311,7 +346,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
   overflow: hidden;
 }
 .lecture-detail .explain h3 {
-  background-color: #d5b66b;
+  background-color: #140079;
 }
 
 .vocabulary-detail {
@@ -338,14 +373,14 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
   border-radius: 10px;
   overflow: hidden;
   transition: 0.5s all;
-  border: 1px solid #d5b66b;
+  border: 1px solid #140079;
 }
 .vocabulary-detail .option-box .custom-audio-player {
-  background-color: #d5b66b;
+  background-color: #140079;
   padding: 15px 10px;
 }
 .vocabulary-detail .option-box:hover {
-  border-color: #d5b66b;
+  border-color: #140079;
   box-shadow: none;
 }
 
@@ -361,7 +396,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #d5b66b;
+  background-color: #140079;
   opacity: 0.7;
   z-index: -1;
 }
@@ -420,7 +455,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
   border: 1px solid rgb(127, 127, 127);
 }
 .wrapper .unit-box:hover h4 {
-  color: #d5b66b;
+  color: #140079;
 }
 .wrapper .unit-heading-box {
   border-radius: 20px;
@@ -457,7 +492,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
   border: 1px solid rgb(236, 236, 236);
 }
 .skills .skill-box a {
-  color: #d5b66b;
+  color: #140079;
   text-decoration: none;
   font-weight: bold;
 }
@@ -509,7 +544,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
   border-radius: 5px 0px 0px 5px;
 }
 .quiz .quiz-items .finish-btn .custom-next-button {
-  background-color: #d5b66b;
+  background-color: #140079;
   border-radius: 0px 5px 5px 0px;
 }
 .quiz .quiz-items .quiz-box {
@@ -568,7 +603,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
   transition: 0.3s all;
 }
 .quiz .quiz-items .quiz-box textarea:focus {
-  border-color: #d5b66b;
+  border-color: #140079;
 }
 .quiz h4 input {
   border: 0;
@@ -583,24 +618,24 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
 #timer {
   font-size: 2rem;
   font-weight: 700;
-  color: #d5b66b;
+  color: #140079;
 }
 
 .answer-area textarea {
   outline: none;
   border-radius: 10px;
   padding: 10px;
-  border: 1px solid #d5b66b;
+  border: 1px solid #140079;
   transition: 0.3s all;
 }
 .answer-area textarea:focus {
-  border-color: #d5b66b;
+  border-color: #140079;
 }
 
 .copyright {
   position: fixed;
   bottom: 0;
-  background-color: #d5b66b;
+  background-color: #140079;
   width: 100%;
   left: 0;
   text-align: center;
@@ -617,7 +652,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
 }
 
 .match-word-box {
-  border: 1px solid #d5b66b !important;
+  border: 1px solid #140079 !important;
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -640,14 +675,14 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
 }
 
 .nav-pills .nav-link {
-  border: 1px solid #d5b66b !important;
+  border: 1px solid #140079 !important;
   cursor: pointer;
 }
 .nav-pills .nav-link label {
-  color: #d5b66b;
+  color: #140079;
 }
 .nav-pills .active {
-  background-color: #d5b66b !important;
+  background-color: #140079 !important;
 }
 .nav-pills .active label {
   color: #ffffff !important;
@@ -671,7 +706,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
   transition: 0.3s all;
 }
 .tab-content form input:focus {
-  border-color: #d5b66b;
+  border-color: #140079;
   box-shadow: 0px 5px 7px rgba(59, 44, 124, 0.2235294118);
 }
 
@@ -681,7 +716,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
   padding: 7px;
   z-index: 999;
   opacity: 1 !important;
-  background-color: #d5b66b;
+  background-color: #140079;
   margin: 6px auto 0 auto !important;
   display: inline-block !important;
   cursor: not-allowed;
@@ -720,7 +755,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
           user-select: none;
 }
 #wordContainer span:hover {
-  background-color: #d5b66b;
+  background-color: #140079;
   color: #ffffff;
 }
 
@@ -872,7 +907,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
   border-radius: 20px 0px 0px 20px;
   background-color: transparent;
   border: none;
-  color: #d5b66b;
+  color: #140079;
   font-weight: 700;
   width: 50px;
   height: 50px;
@@ -889,7 +924,7 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
 
 audio {
   border-radius: 100px;
-  border: 1px solid #d5b66b;
+  border: 1px solid #140079;
   max-width: 275px;
 }
 
@@ -923,7 +958,7 @@ audio::-webkit-media-controls-panel {
   display: inline-block;
 }
 .profile-sec .information textarea:focus {
-  border-color: #d5b66b;
+  border-color: #140079;
 }
 
 .contact-sec {
@@ -936,7 +971,7 @@ audio::-webkit-media-controls-panel {
   border-radius: 10px;
 }
 .messages td a {
-  background-color: #d5b66b;
+  background-color: #140079;
   padding: 7px;
   border-radius: 5px;
   font-size: 0.8rem;
@@ -967,7 +1002,7 @@ audio::-webkit-media-controls-panel {
   transition: 0.3s all;
 }
 .library-box a {
-  color: #d5b66b;
+  color: #140079;
   font-size: 1.2rem;
 }
 .library-box img {
