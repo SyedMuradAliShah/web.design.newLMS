@@ -947,7 +947,7 @@ audio::-webkit-media-controls-panel {
   border-radius: 200px;
 }
 .profile-sec .information {
-  background-color: #70ba65;
+  background-color: rgb(241, 241, 241);
   border-radius: 15px;
 }
 .profile-sec .information h6 {
@@ -962,7 +962,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .contact-sec {
-  background-color: #70ba65;
+  background-color: rgb(241, 241, 241);
   border-radius: 15px;
 }
 
@@ -991,7 +991,7 @@ audio::-webkit-media-controls-panel {
   background-color: rgba(248, 248, 248, 0.388);
 }
 .message-detail form {
-  background-color: #70ba65;
+  background-color: rgb(241, 241, 241);
   border-radius: 15px;
 }
 

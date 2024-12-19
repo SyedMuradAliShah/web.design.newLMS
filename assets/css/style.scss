@@ -1013,7 +1013,7 @@ audio::-webkit-media-controls-panel {
         }
     }
     .information{
-        background-color: $active-bg;
+        background-color: rgb(241, 241, 241);
         border-radius: 15px;
         h6{
             line-height: 2;
@@ -1030,7 +1030,7 @@ audio::-webkit-media-controls-panel {
     }
 }
 .contact-sec{
-    background-color: $active-bg;
+    background-color: rgb(241, 241, 241);
     border-radius: 15px;
 }
 .messages{
@@ -1062,7 +1062,7 @@ audio::-webkit-media-controls-panel {
         background-color: rgba(248, 248, 248, 0.388);
     }
     form{
-        background-color: $active-bg;
+        background-color: rgb(241, 241, 241);
         border-radius: 15px;
     }
 }
