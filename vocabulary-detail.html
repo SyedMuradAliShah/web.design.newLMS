@@ -11,148 +11,227 @@
 
   </head>
   <body>
-    
-    <section class="dash-content">
-      <header class="py-2">
-        <div class="d-flex justify-content-between">
-          <div class="d-flex logo-sec align-items-center">
-            <div class="logo d-none d-md-block">
-              <img src="./assets/images/logo.png" class="w-75" alt="">
-            </div>
-            <button class="open-btn" onclick="toggleNav()">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
+    <div class="container-fluid">
+      <header id="header-sec">
+        <div class="container">
+
+          <nav class="navbar navbar-expand-lg py-3">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo.png" width="120px" alt="">
+                <p class="mb-0 fw-bold">School Name</p>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
               </button>
-          </div>
-         
-        <div class="me-0 me-lg-5 btn-sec d-flex justify-content-end">
-  
-  <div class="btn-group w-25 me-3">
-    <button class="btn icon p-0" data-bs-toggle="dropdown" aria-expanded="false">
-      <img src="./assets/images/chatting.png" class="object-fit-fill w-100" alt="">
-    </button>
-    <ul class="dropdown-menu px-4">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
-    </ul>
-  </div>
-  <div class="btn-group w-25 me-3">
-    <button class="btn icon p-0" data-bs-toggle="dropdown" aria-expanded="false">
-      <img src="./assets/images/notification.png" class="object-fit-fill w-100" alt="">
-    </button>
-    <ul class="dropdown-menu px-4">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
-    </ul>
-  </div>
-  <div class="btn-group">
-    <button class="btn profile p-0" data-bs-toggle="dropdown" aria-expanded="false">
-      <img src="./assets/images/profile.png" class="object-fit-fill w-100" alt="">
-    </button>
-    <ul class="dropdown-menu px-4">
-      <li><a class="dropdown-item" href="./profile.html">My Profile</a></li>
-      <li><a class="dropdown-item" href="./change-password.html">Change Password</a></li>
-      <li><a class="dropdown-item logout-btn" href="./index.html">Logout</a></li>
-    </ul>
-  </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3">
+                  <li class="nav-item">
+                    <a class="nav-link px-3 active" aria-current="page" href="#"><i class="fa-solid fa-network-wired me-2"></i> Classes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3 " aria-current="page" href="#"><i class="fa-solid fa-chart-pie me-2"></i> Progress Report</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3 " aria-current="page" href="#"><i class="fa-solid fa-comment-dots me-2"></i> Contact Teacher</a>
+                  </li>
+                </ul>
+                <div class="me-0 me-lg-5 btn-sec d-flex justify-content-end  gap-3">
+      
+                  <div class="btn-group">
+                    <button class="btn icon p-0 primary-text" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa-solid fa-envelope rounded-circle bg-white"></i>
+                    </button>
+                    <ul class="dropdown-menu px-4">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group w-25">
+                    <button class="btn icon p-0 primary-text" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa-solid fa-bell rounded-circle bg-white"></i>
+                    </button>
+                    <ul class="dropdown-menu px-4">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button class="btn profile p-0" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="./assets/images/profile.png" class="object-fit-fill w-100" alt="">
+                    </button>
+                    <ul class="dropdown-menu px-4">
+                      <li><a class="dropdown-item small" href="./profile.html">My Profile</a></li>
+                      <li><a class="dropdown-item small" href="./change-password.html">Change Password</a></li>
+                      <li><a class="dropdown-item logout-btn small" href="./index.html">Logout</a></li>
+                    </ul>
+                  </div>
+                        </div>
+              </div>
+          </nav>
         </div>
-      </div>
-      </header>    
-      <div class="sidebar py-4 px-lg-3" id="mySidebar">      
-      <div class="side-nav position-relative h-100">      
-      <a href="./units.html" class="active">
-        <i class="fa-solid fa-swatchbook"></i>
-        <span class="text">Units</span>
-      </a>
-      <ul>
-        <li><a href="" class="fw-normal ps-2 py-1">Unit name-1</a></li>
-        <li><a href="" class="fw-normal ps-2 py-1">Unit name-2</a></li>
-        <li><a href="" class="fw-normal ps-2 py-1">Unit name-3</a></li>
-        <li><a href="" class="fw-normal ps-2 py-1">Unit name-4</a></li>
-        <li><a href="" class="fw-normal ps-2 py-1">Unit name-5</a></li>
-      </ul>
-      <a href="./progress-report.html">
-        <i class="fa-solid fa-chart-pie"></i>
-        <span class="text">Progress Report</span>
-      </a>
-      <a href="./profile.html">
-        <i class="fa-solid fa-user"></i>
-        <span class="text">My Profile</span>
-      </a>
-      <a href="./contact-teacher.html">
-        <i class="fa-solid fa-square-envelope"></i>
-        <span class="text">Contact Teacher</span>
-      </a>
-      </div>
+    </header>
     </div>
-    <div class="content pt-5 mt-lg-0 position-relative"> 
-        
-      <div class="wrapper skills p-0 p-lg-5 border-0 shadow-none">
-        <div class="heading pt-5 pt-lg-0">
-          <h3>Common Vocabulary</h3>
-        </div>
-        <div class="lecture-detail vocabulary-detail">
-        <div class="row row-cols-1 row-cols-md-2">
-          <div class="col mb-4">
-            <div class="box text-center">
-                <img src="./assets/images/apple.jpg" class="mx-auto" alt="">
-                <h4 class="fw-bold">Apple</h4>
-                <div class="custom-audio-player" data-src="./assets/audio/audio-q.mp3"></div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="explain text-center h-100">
-              <h3 class="mb-md-4 text-white text-start p-3 w-100">Explanation <br> <span>تشرح المعلمة الدرس </span></h3>
-              <audio class="mt-lg-2" controls controlsList="nodownload noplaybackrate">
-                <source src="./assets/audio/audio-q.mp3" type="audio/mpeg">
-              Your browser does not support the audio element.
-              </audio>
-            </div>
-          </div>
-        </div>
-        <div class="option">
-        <div class="row row-cols-1 row-cols-md-2">
-          <div class="col mb-4">
-            <div class="option-box d-block d-lg-flex align-items-center">
-              <div class="custom-audio-player" data-src="./assets/audio/audio-q.mp3"></div>
-              <h5 class="fw-bold m-0 ms-2 w-100 mx-3 my-3 my-lg-0 text-center text-lg-start">Synonym <span class="float-lg-end ms-3">مرادف</span></h5>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="option-box d-block d-lg-flex align-items-center">
-              <div class="custom-audio-player" data-src="./assets/audio/audio-q.mp3"></div>
-              <h5 class="fw-bold m-0 ms-2 w-100 mx-3 my-3 my-lg-0 text-center text-lg-start">Antonym <span class="float-lg-end ms-3">ضد</span></h5>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="option-box d-block d-lg-flex align-items-center">
-              <div class="custom-audio-player" data-src="./assets/audio/audio-q.mp3"></div>
-              <h5 class="fw-bold m-0 ms-2 w-100 mx-3 my-3 my-lg-0 text-center text-lg-start">Singular <span class="float-lg-end ms-3">مفرد</span></h5>
-            </div>
-          </div>
-          <div class="col">
-            <div class="option-box d-block d-lg-flex align-items-center">
-              <div class="custom-audio-player" data-src="./assets/audio/audio-q.mp3"></div>
-              <h5 class="fw-bold m-0 ms-2 w-100 mx-lg-3 my-3 my-lg-0 text-center text-lg-start">Type <span class="float-lg-end ms-3">النوع</span></h5>
+    <section>
+      <div class="container-fluid">
+        <div class="profile-details primary-bg">
+          <div class="container">
+
+            <div class="row row-cols-1 row-cols-lg-2 justify-content-between align-items-center">
+              <div class="col">
+                <div class="heading">
+                    <h4 class="text-uppercase fw-bold text-white mb-1">vocabulary Details</h4>
+                  <p class="mb-0 small text-white">Teacher Name</p>
+              </div>
+              </div>
+              <div class="col">
+                <div class="d-flex align-items-center justify-content-end gap-3">
+                  <div>
+                    <h2 class="fw-semibold text-white">Hi Komal Sheikh!</h2>
+                    <p class="mb-0 text-white fw-bold">Grade A <span class="fw-normal">(Section-A)</span></p>
+                  </div>
+                  <img src="./assets/images/female.png" width="120px" alt="">
+                  
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
-    </div>
-    <div class="p-3 justify-content-between d-flex bottom-btns mt-4 ">
-      <a href="./common-vocabulary.html" class="btn-cls px-4 py-2"><i class="fa-solid fa-caret-left"></i> Back</a>
-      <a href="./vocabulary-instruction.html" class="btn-cls px-4 py-2">Quiz <i class="fa-solid fa-caret-right"></i></a>
-    </div>
-    </div>
     </section>
+    <section class="mt-4">
+      <div class="container">
+        <div class="lecture-detail vocabulary-detail">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+              <div class="box text-center bg-white shadow-sm">
+                  <img src="./assets/images/apple.jpg" class="mx-auto" alt="">
+                  <h4 class="fw-bold">Apple</h4>
+                  <div class="custom-audio-player" data-src="./assets/audio/audio-q.mp3"></div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="explain text-center h-100 bg-white shadow-sm">
+                <h3 class="mb-md-3 text-white text-start p-3 w-100 ">Explanation <br>تشرح المعلمة الدرس </span></h3>
+                <audio controls controlsList="nodownload noplaybackrate">
+                  <source src="./assets/audio/audio-q.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+                </audio>
+              </div>
+            </div>
+          </div>
+          <div class="option">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+              <div class="bg-white p-3 rounded-3 shadow-sm">
+                <h4 class="fw-bold w-100 mb-3 text-center text-lg-start">Synonym <span class="float-lg-end ">مرادف</span></h4>
+                <div class="shadow-sm p-3 rounded-3 border">
+                  <h6 class="mb-0">synonym word</h6>
+                </div>
+                <div class="shadow-sm p-3 rounded-3 border mt-3">
+                  <h6 class="mb-2">synonym Audio</h6>
+                  <audio controls controlsList="nodownload noplaybackrate">
+                    <source src="./assets/audio/audio-q.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                </div>
+                <div class="shadow-sm p-3 rounded-3 border mt-3">
+                  <h6 class="mb-2">synonym Video</h6>
+                  <iframe width="100%" height="250px" src="https://www.youtube.com/embed/J1FUvlO70gs?si=CNObjjdvwJUyUBJT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  
+                </div>
+                <div class="shadow-sm p-3 rounded-3 border mt-3">
+                  <h6 class="mb-2">synonym Image</h6>
+                  <img src="./assets/images/months.jpg" width="100%" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="bg-white p-3 rounded-3 shadow-sm">
+                <h4 class="fw-bold w-100 mb-3 text-center text-lg-start">Antonym <span class="float-lg-end ">مرادف</span></h4>
+                <div class="shadow-sm p-3 rounded-3 border">
+                  <h6 class="mb-0">Antonym word</h6>
+                </div>
+                <div class="shadow-sm p-3 rounded-3 border mt-3">
+                  <h6 class="mb-2">Antonym Audio</h6>
+                  <audio controls controlsList="nodownload noplaybackrate">
+                    <source src="./assets/audio/audio-q.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                </div>
+                <div class="shadow-sm p-3 rounded-3 border mt-3">
+                  <h6 class="mb-2">Antonym Video</h6>
+                  <iframe width="100%" height="250px" src="https://www.youtube.com/embed/J1FUvlO70gs?si=CNObjjdvwJUyUBJT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  
+                </div>
+                <div class="shadow-sm p-3 rounded-3 border mt-3">
+                  <h6 class="mb-2">Antonym Image</h6>
+                  <img src="./assets/images/months.jpg" width="100%" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="bg-white p-3 rounded-3 shadow-sm">
+                <h4 class="fw-bold w-100 mb-3 text-center text-lg-start">Singular <span class="float-lg-end ">مرادف</span></h4>
+                <div class="shadow-sm p-3 rounded-3 border">
+                  <h6 class="mb-0">Singular word</h6>
+                </div>
+                <div class="shadow-sm p-3 rounded-3 border mt-3">
+                  <h6 class="mb-2">Singular Audio</h6>
+                  <audio controls controlsList="nodownload noplaybackrate">
+                    <source src="./assets/audio/audio-q.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                </div>
+                <div class="shadow-sm p-3 rounded-3 border mt-3">
+                  <h6 class="mb-2">Singular Video</h6>
+                  <iframe width="100%" height="250px" src="https://www.youtube.com/embed/J1FUvlO70gs?si=CNObjjdvwJUyUBJT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  
+                </div>
+                <div class="shadow-sm p-3 rounded-3 border mt-3">
+                  <h6 class="mb-2">Singular Image</h6>
+                  <img src="./assets/images/months.jpg" width="100%" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="bg-white p-3 rounded-3 shadow-sm">
+                <h4 class="fw-bold w-100 mb-3 text-center text-lg-start">Type <span class="float-lg-end ">مرادف</span></h4>
+                <div class="shadow-sm p-3 rounded-3 border">
+                  <h6 class="mb-0">Type word</h6>
+                </div>
+                <div class="shadow-sm p-3 rounded-3 border mt-3">
+                  <h6 class="mb-2">Type Audio</h6>
+                  <audio controls controlsList="nodownload noplaybackrate">
+                    <source src="./assets/audio/audio-q.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                </div>
+                <div class="shadow-sm p-3 rounded-3 border mt-3">
+                  <h6 class="mb-2">Type Video</h6>
+                  <iframe width="100%" height="250px" src="https://www.youtube.com/embed/J1FUvlO70gs?si=CNObjjdvwJUyUBJT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  
+                </div>
+                <div class="shadow-sm p-3 rounded-3 border mt-3">
+                  <h6 class="mb-2">Type Image</h6>
+                  <img src="./assets/images/months.jpg" width="100%" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <div class="p-3 justify-content-between d-flex bottom-btns ">
+      <a href="./listening.html" class="btn-cls px-4 py-2"><i class="fa-solid fa-caret-left"></i> Back</a>
+      <a href="./listening-instruction.html" class="btn-cls px-4 py-2">Quiz <i class="fa-solid fa-caret-right"></i></a>
+    </div>
     <!-- ===============script-tag=============== -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/script.js"></script>

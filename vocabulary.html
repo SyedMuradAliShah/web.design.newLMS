@@ -3,180 +3,98 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LMS - vocabulary</title>
+    <title>LMS - vocabulary-Comprehension </title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/all.min.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
   </head>
   <body>
-    <section class="dash-content">
-      <header class="py-2">
-        <div class="d-flex justify-content-between">
-          <div class="d-flex logo-sec align-items-center">
-            <div class="logo d-none d-md-block">
-              <img src="./assets/images/logo.png" class="w-75" alt="">
-            </div>
-            <button class="open-btn" onclick="toggleNav()">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
-              </button>
-          </div>
-         
-        <div class="me-0 me-lg-5 btn-sec d-flex justify-content-end">
-  
-  <div class="btn-group w-25 me-3">
-    <button class="btn icon p-0" data-bs-toggle="dropdown" aria-expanded="false">
-      <img src="./assets/images/chatting.png" class="object-fit-fill w-100" alt="">
-    </button>
-    <ul class="dropdown-menu px-4">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
-    </ul>
-  </div>
-  <div class="btn-group w-25 me-3">
-    <button class="btn icon p-0" data-bs-toggle="dropdown" aria-expanded="false">
-      <img src="./assets/images/notification.png" class="object-fit-fill w-100" alt="">
-    </button>
-    <ul class="dropdown-menu px-4">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
-    </ul>
-  </div>
-  <div class="btn-group">
-    <button class="btn profile p-0" data-bs-toggle="dropdown" aria-expanded="false">
-      <img src="./assets/images/profile.png" class="object-fit-fill w-100" alt="">
-    </button>
-    <ul class="dropdown-menu px-4">
-      <li><a class="dropdown-item" href="./profile.html">My Profile</a></li>
-      <li><a class="dropdown-item" href="./change-password.html">Change Password</a></li>
-      <li><a class="dropdown-item logout-btn" href="./index.html">Logout</a></li>
-    </ul>
-  </div>
-        </div>
-      </div>
-      </header>    
-      <div class="sidebar py-4 px-lg-3" id="mySidebar">      
-      <div class="side-nav position-relative h-100">      
-      <a href="./units.html" class="active">
-        <i class="fa-solid fa-swatchbook"></i>
-        <span class="text">Units</span>
-      </a>
-      <ul>
-        <li><a href="" class="fw-normal ps-2 py-1">Unit name-1</a></li>
-        <li><a href="" class="fw-normal ps-2 py-1">Unit name-2</a></li>
-        <li><a href="" class="fw-normal ps-2 py-1">Unit name-3</a></li>
-        <li><a href="" class="fw-normal ps-2 py-1">Unit name-4</a></li>
-        <li><a href="" class="fw-normal ps-2 py-1">Unit name-5</a></li>
-      </ul>
-      <a href="./progress-report.html">
-        <i class="fa-solid fa-chart-pie"></i>
-        <span class="text">Progress Report</span>
-      </a>
-      <a href="./profile.html">
-        <i class="fa-solid fa-user"></i>
-        <span class="text">My Profile</span>
-      </a>
-      <a href="./contact-teacher.html">
-        <i class="fa-solid fa-square-envelope"></i>
-        <span class="text">Contact Teacher</span>
-      </a>
-      </div>
-    </div>
+    <div class="container-fluid">
+      <header id="header-sec">
+        <div class="container">
 
-      <div class="content pt-5 mt-lg-0 position-relative">   
-        <div class="wrapper skills p-3 p-lg-5 border-0 shadow-none">
-          <div class="heading pt-5 pt-lg-0">
-            <h3>Common Vocabulary</h3>
-          </div>
-          <div class="lecture-detail">
-            <div
-              class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4"
-            >
-              <div class="col mb-4">
-                <div class="box text-center">
-                  <a
-                    href="./vocabulary-detail.html"
-                    class="text-decoration-none text-dark"
-                  >
-                    <img
-                      src="./assets/images/apple.jpg"
-                      class="mx-auto"
-                      alt=""
-                    />
-                    <h4 class="fw-bold">Apple</h4>
-                  </a>
-                  <div
-                    class="custom-audio-player"
-                    data-src="./assets/audio/audio-q.mp3"
-                  ></div>
-                </div>
+          <nav class="navbar navbar-expand-lg py-3">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo.png" width="120px" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3">
+                  <li class="nav-item">
+                    <a class="nav-link px-3 active" aria-current="page" href="#"><i class="fa-solid fa-network-wired me-2"></i> Classes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3 " aria-current="page" href="#"><i class="fa-solid fa-chart-pie me-2"></i> Progress Report</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3 " aria-current="page" href="#"><i class="fa-solid fa-comment-dots me-2"></i> Contact Teacher</a>
+                  </li>
+                </ul>
+                <div class="me-0 me-lg-5 btn-sec d-flex justify-content-end  gap-3">
+      
+                  <div class="btn-group">
+                    <button class="btn icon p-0 primary-text" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa-solid fa-envelope rounded-circle bg-white"></i>
+                    </button>
+                    <ul class="dropdown-menu px-4">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group w-25">
+                    <button class="btn icon p-0 primary-text" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa-solid fa-bell rounded-circle bg-white"></i>
+                    </button>
+                    <ul class="dropdown-menu px-4">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <div class="btn-group">
+                    <button class="btn profile p-0" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="./assets/images/profile.png" class="object-fit-fill w-100" alt="">
+                    </button>
+                    <ul class="dropdown-menu px-4">
+                      <li><a class="dropdown-item small" href="./profile.html">My Profile</a></li>
+                      <li><a class="dropdown-item small" href="./change-password.html">Change Password</a></li>
+                      <li><a class="dropdown-item logout-btn small" href="./index.html">Logout</a></li>
+                    </ul>
+                  </div>
+                        </div>
               </div>
-              <div class="col mb-4">
-                <div class="box text-center">
-                  <a
-                    href="./vocabulary-detail.html"
-                    class="text-decoration-none text-dark"
-                  >
-                    <img
-                      src="./assets/images/banana.jpg"
-                      class="mx-auto"
-                      alt=""
-                    />
-                    <h4 class="fw-bold textToSpeech">Banana</h4>
-                  </a>
-                  <div
-                    class="custom-audio-player"
-                    data-src="./assets/audio/audio-q.mp3"
-                  ></div>
-                </div>
+          </nav>
+        </div>
+    </header>
+    </div>
+    <section>
+      <div class="container-fluid">
+        <div class="profile-details primary-bg">
+          <div class="container">
+
+            <div class="row row-cols-1 row-cols-lg-2 justify-content-between align-items-center">
+              <div class="col">
+                <div class="heading">
+                    <h4 class="text-uppercase fw-bold text-white mb-1">Vocabulary Comprehension</h4>
+                  <p class="mb-0 small text-white">Teacher Name</p>
               </div>
-              <div class="col mb-4">
-                <div class="box text-center">
-                  <a
-                    href="./vocabulary-detail.html"
-                    class="text-decoration-none text-dark"
-                  >
-                    <img
-                      src="./assets/images/orange.jpg"
-                      class="mx-auto"
-                      alt=""
-                    />
-                    <h4 class="fw-bold textToSpeech">Orange</h4>
-                  </a>
-                  <div
-                    class="custom-audio-player"
-                    data-src="./assets/audio/audio-q.mp3"
-                  ></div>
-                </div>
               </div>
-              <div class="col mb-4">
-                <div class="box text-center">
-                  <a
-                    href="./vocabulary-detail.html"
-                    class="text-decoration-none text-dark"
-                  >
-                    <img
-                      src="./assets/images/strawberry.jpg"
-                      class="mx-auto"
-                      alt=""
-                    />
-                    <h4 class="fw-bold textToSpeech">Strawberry</h4>
-                  </a>
-                  <div
-                    class="custom-audio-player"
-                    data-src="./assets/audio/audio-q.mp3"
-                  ></div>
+              <div class="col">
+                <div class="d-flex align-items-center justify-content-end gap-3">
+                  <div>
+                    <h2 class="fw-semibold text-white">Hi Komal Sheikh!</h2>
+                    <p class="mb-0 text-white fw-bold">Grade A <span class="fw-normal">(Section-A)</span></p>
+                  </div>
+                  <img src="./assets/images/female.png" width="120px" alt="">
+                  
                 </div>
               </div>
             </div>
@@ -184,8 +102,150 @@
         </div>
       </div>
     </section>
+<section class="mt-4">
+  <div class="container-fluid">
+    <div class="lecture-detail">
+      <div class="row">
+        <div class="col-lg-4 col-xl-3">
+          <div class="all-units rounded-4 p-3">
+            <h4 class="fw-bold mb-4 mt-2 primary-text">All Quiz</h4>
+              <a href="./class-details.html" class="class-box mb-3 bg-white rounded-4 p-3 d-flex justify-content-between align-items-center text-decoration-none">
+                <div class="text">
+                  <h5 class="fw-bold text-dark mb-1">Listening Comprehension</h5>
+                  <p class="small mb-0 secondary-text">فهم المسموع</p>
+                </div>
+                <div class="imgbox rounded-3 overflow-hidden">
+                  <img src="./assets/images/unit.jpg" width="100%" alt="">
+                </div>
+              </a>
+              <a href="./class-details.html" class="class-box mb-3 bg-white rounded-4 p-3 d-flex justify-content-between align-items-center text-decoration-none">
+                <div class="text">
+                  <h5 class="fw-bold text-dark mb-1">Reading Comprehension</h5>
+                  <p class="small mb-0 secondary-text">فهم المقروء</p>
+                </div>
+                <div class="imgbox rounded-3 overflow-hidden">
+                  <img src="./assets/images/unit.jpg" width="100%" alt="">
+                </div>
+              </a>
+              <a href="./class-details.html" class="class-box mb-3 bg-white rounded-4 p-3 d-flex justify-content-between align-items-center text-decoration-none">
+                <div class="text">
+                  <h5 class="fw-bold text-dark mb-1">Common Vocabularies</h5>
+                  <p class="small mb-0 secondary-text">المفردات</p>
+                </div>
+                <div class="imgbox rounded-3 overflow-hidden">
+                  <img src="./assets/images/unit.jpg" width="100%" alt="">
+                </div>
+              </a>
+              <a href="./class-details.html" class="class-box mb-3 bg-white rounded-4 p-3 d-flex justify-content-between align-items-center text-decoration-none">
+                <div class="text">
+                  <h5 class="fw-bold text-dark mb-1">Speaking Skills</h5>
+                  <p class="small mb-0 secondary-text">مهارة التحدث</p>
+                </div>
+                <div class="imgbox rounded-3 overflow-hidden">
+                  <img src="./assets/images/unit.jpg" width="100%" alt="">
+                </div>
+              </a>
+              <a href="./class-details.html" class="class-box bg-white rounded-4 p-3 d-flex justify-content-between align-items-center text-decoration-none">
+                <div class="text">
+                  <h5 class="fw-bold text-dark mb-1">Writing Expression</h5>
+                  <p class="small mb-0 secondary-text">التعبير الكتابة</p>
+                </div>
+                <div class="imgbox rounded-3 overflow-hidden">
+                  <img src="./assets/images/unit.jpg" width="100%" alt="">
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-lg-8 col-xl-9">
+          <div
+        class="row row-cols-1 row-cols-md-2 row-cols-xl-3"
+      >
+        <div class="col mb-4">
+          <div class="box text-center bg-white">
+            <a
+              href="./listening-detail.html"
+              class="text-decoration-none text-dark"
+            >
+              <img
+                src="./assets/images/apple.jpg"
+                class="mx-auto"
+                alt=""
+              />
+              <h4 class="fw-bold">Apple</h4>
+            </a>
+            <div
+              class="custom-audio-player"
+              data-src="./assets/audio/audio-q.mp3"
+            ></div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="box text-center bg-white">
+            <a
+              href="./listening-detail.html"
+              class="text-decoration-none text-dark"
+            >
+              <img
+                src="./assets/images/banana.jpg"
+                class="mx-auto"
+                alt=""
+              />
+              <h4 class="fw-bold textToSpeech">Banana</h4>
+            </a>
+            <div
+              class="custom-audio-player"
+              data-src="./assets/audio/audio-q.mp3"
+            ></div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="box text-center bg-white">
+            <a
+              href="./listening-detail.html"
+              class="text-decoration-none text-dark"
+            >
+              <img
+                src="./assets/images/orange.jpg"
+                class="mx-auto"
+                alt=""
+              />
+              <h4 class="fw-bold textToSpeech">Orange</h4>
+            </a>
+            <div
+              class="custom-audio-player"
+              data-src="./assets/audio/audio-q.mp3"
+            ></div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="box text-center bg-white">
+            <a
+              href="./listening-detail.html"
+              class="text-decoration-none text-dark"
+            >
+              <img
+                src="./assets/images/strawberry.jpg"
+                class="mx-auto"
+                alt=""
+              />
+              <h4 class="fw-bold textToSpeech">Strawberry</h4>
+            </a>
+            <div
+              class="custom-audio-player"
+              data-src="./assets/audio/audio-q.mp3"
+            ></div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
     <!-- ===============script-tag=============== -->
     <script src="assets/js/jquery.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
