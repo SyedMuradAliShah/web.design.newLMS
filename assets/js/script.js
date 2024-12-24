@@ -1,3 +1,17 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const unitsButton = document.getElementById('units');
+  const allUnits = document.querySelector('.all-units');
+
+  unitsButton.addEventListener('click', () => {
+    allUnits.classList.toggle('d-block');
+    // Toggle button text
+    if (allUnits.classList.contains('d-block')) {
+      unitsButton.textContent = 'Hide Units';
+    } else {
+      unitsButton.textContent = 'Show Units';
+    }
+  });
+});
 
 // ==========================dashboard-nav
 // Add sticky class on scroll

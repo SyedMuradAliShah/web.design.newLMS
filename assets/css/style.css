@@ -167,6 +167,8 @@ header .btn-sec .btn:focus {
 header .btn-sec .dropdown-menu {
   border: none;
   box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.354);
+  right: 0;
+  left: inherit !important;
 }
 header .btn-sec .dropdown-menu a {
   margin: 10px 0px;
@@ -283,9 +285,14 @@ header .btn-sec .dropdown-menu .logout-btn:hover {
 }
 
 .all-units {
-  background-color: rgba(211, 211, 211, 0.443);
   height: 600px;
   overflow-y: auto;
+}
+.all-units .accordion-button {
+  font-size: 1.5rem;
+}
+.all-units .accordion-body {
+  background-color: rgba(211, 211, 211, 0.443);
 }
 .all-units .class-box {
   border: 1px solid #140079;
@@ -1190,5 +1197,10 @@ audio::-webkit-media-controls-panel {
     right: inherit;
     transform: translate(0, 0);
     margin: 10px 0px;
+  }
+}
+@media (max-width: 767px) {
+  .all-units {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -172,6 +172,8 @@ header{
         .dropdown-menu{
             border: none;
             box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.354);
+            right: 0;
+            left: inherit !important;
             a{
                 margin: 10px 0px;
                 transition: 0.3s all;
@@ -304,9 +306,15 @@ header{
     }
 }
 .all-units{
-    background-color: rgba(211, 211, 211, 0.443);
     height: 600px;
     overflow-y: auto;
+    .accordion-button{
+        font-size: 1.5rem;
+    }
+    .accordion-body{
+        background-color: rgba(211, 211, 211, 0.443);
+
+    }
     .class-box{
         border: 1px solid $primary-color;
         .imgbox{
@@ -1279,3 +1287,11 @@ audio::-webkit-media-controls-panel {
         margin: 10px 0px;
     }
 }
+@media (max-width: 767px) {
+    .all-units {
+        display: none;
+      }
+    
+}
+
+
